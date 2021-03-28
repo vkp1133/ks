@@ -1,13 +1,13 @@
 <html>
 <head>
 <head>
-<title>Welcome TO KartikeyaSoft</title>
+<title>DevOps Deployment </title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body bgcolor="#CFC7C5">
+<body bgcolor="#B22222">
 <center>
-<h2> <font color="FF0000"> Welcome To Kartikeya Soft </font> </h2>
+<h2> <font color="FF0000"> New Pro </font> </h2>
 </center>	
 </body>
 </html>
