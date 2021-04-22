@@ -45,11 +45,11 @@
 		</plugins>
 	</build>
 	<distributionManagement>
-    <snapshotrepository>
+    <snapshotRepository>
 	    <id>deployment</id>
         <name>snapshot releases</name>
         <url>http://35.222.177.105:8081/repository/maven-snapshots/</url>
-    </snapshotrepository>
+    </snapshotRepository>
 	</distributionManagement>
 		
 </project>
