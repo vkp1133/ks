@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body bgcolor="#00FFFF">
+<body bgcolor="#FFBF00">
 <center>
-<h2> <font color="#008080"> New devops Project deployment  </font> </h2>
+<h2> <font color="#DE3163"> Welcome TO KartikeyaSoft DevOps  </font> </h2>
 </center>	
 </body>
 </html>
