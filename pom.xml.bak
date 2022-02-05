@@ -45,12 +45,17 @@
 		</plugins>
 	</build>
 
-   <distributionManagement>
-    <snapshotRepository>
+   <distributionManagement>    
+	<repository>
+      <id>deployment</id>
+      <name>Releases</name>
+      <url>http://34.72.13.27:8081/repository/maven-releases/</url>
+    </repository>	
+	<snapshotRepository>
         <id>deployment</id>
         <name>snapshot releases</name>
-        <url>http://34.134.223.206/repository/maven-snapshots/</url>
-    </snapshotRepository>
+        <url>http://34.134.223.206:8081/repository/ks_maven/</url>
+    </snapshotRepository>		
   </distributionManagement>
 		
 </project>
