@@ -43,12 +43,14 @@
 				<version>2.1.1</version>
 			</plugin>
 		</plugins>
-  </build>	
-  <distributionManagement>
-    <snapshotRepository>
-      <id>nexus</id>
-      <name>Snapshot</name>
-      <url>http://34.72.13.27:8081/repository/ks_maven/</url>
-    </snapshotRepository>
- </distributionManagement>
+	</build>	
+  
+    <distributionManagement>
+      <snapshotRepository>
+        <id>deployment</id>
+        <name>Snapshot releases</name>
+        <url>http://34.72.13.27:8081/repository/maven-snapshots/</url>
+      </snapshotRepository>
+    </distributionManagement>
+ 
 </project>
