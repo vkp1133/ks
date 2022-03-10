@@ -1,0 +1,7 @@
+<distributionManagement>
+    <snapshotRepository>
+      <id>deployment</id>
+	  <name>snapshot releases</name>
+      <url></url>
+    </snapshotRepository>
+</distributionManagement>
