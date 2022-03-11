@@ -1,0 +1,6 @@
+ID=$(curl http://34.136.29.5:8081/service/rest/repository/browse/maven-snapshots/com/ksapp/ks/ |html2text |grep SNAP | tail -n1)
+VER=$(curl http://34.136.29.5:8081/service/rest/repository/browse/maven-snapshots/com/ksapp/ks/$ID/ |html2text |grep -v UTC |tail -n1)
+
+
+
+http://34.136.29.5:8081/repository/maven-snapshots/com/ksapp/ks/6-SNAPSHOT/ks-6-20220311.152247-6.war
