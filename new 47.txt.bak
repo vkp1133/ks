@@ -1,0 +1,1 @@
+curl http://192.168.1.63:8081/repository/ksrepo/com/ksapp/ks/maven-metadata.xml |grep  SNAP | sed 's/<version>//' | sed 's/<\/version>//' | xargs -n1 | tail -n1
