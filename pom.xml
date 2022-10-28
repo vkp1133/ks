@@ -46,8 +46,8 @@
 	</build>
 	<distributionManagement>
 	   <snapshotRepository>
-        <id>deployment</id>
-        <url>http://35.225.25.252:8081/repository/maven-snapshots/</url>
+        <id>release</id>
+        <url>http://35.225.25.252:8081/repository/maven-releases/</url>
     </snapshotRepository>
 	</distributionManagement>
 	
