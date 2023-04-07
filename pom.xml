@@ -44,12 +44,6 @@
 			</plugin>
 		</plugins>
 	</build>
-	<distributionManagement>
-	<snapshotRepository>
-      <id>deployment</id>
-      <!-- CHANGE HERE by your team nexus server -->
-      <url>http://192.168.29.82:8081/repository/maven-snapshots/</url>
-    </snapshotRepository>
-	</distributionManagement>
+	
 		
 </project>
