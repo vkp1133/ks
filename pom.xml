@@ -47,7 +47,7 @@
 	<distributionManagement>
     <snapshotRepository>
         <id>deployment</id>
-        <url>http://.16:8081/repository/</url>
+        <url>http://51.20.190.58:8081/repository/</url>
     </snapshotRepository>
 </distributionManagement>
 		
